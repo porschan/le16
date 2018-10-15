@@ -1,0 +1,53 @@
+<!--pages/WiFiList/WiFiList.wxml-->
+<view class="page">
+    <view style="padding:40px;">
+        <view style="text-align:left;font-size:20px;font-weight:400;">Wifi</view>
+        <view style="margin-top:5px;color:#888888;text-align:left;font-size:14px;">这里有您需要的wifi 账号密码，请勿透露他人！</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-panel">
+            <view class="weui-panel__hd">4楼</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">SSID：24home4</view>
+                    <view class="weui-media-box__desc">密码：86778349</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">WPA-PSK</view>
+                        <view class="weui-media-box__info__meta">2.4GHz</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">4楼</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel">
+            <view class="weui-panel__hd">4楼</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">SSID：5home4</view>
+                    <view class="weui-media-box__desc">密码：86778349</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">WPA-PSK</view>
+                        <view class="weui-media-box__info__meta">5GHz</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">4楼</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel">
+            <view class="weui-panel__hd">5楼</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">SSID：porschanWifi</view>
+                    <view class="weui-media-box__desc">密码：porschanWifiporschanWifi</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">WPA-PSK</view>
+                        <view class="weui-media-box__info__meta">5GHz</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">5楼</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

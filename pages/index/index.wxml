@@ -1,0 +1,29 @@
+<!--pages/index/index.wxml-->
+<view class="page">
+    <view style="padding:40px;">
+        <view style="text-align:left;font-size:20px;font-weight:400;">菜单</view>
+        <view style="margin-top:5px;color:#888888;text-align:left;font-size:14px;">请选择菜单</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <navigator url="/pages/WiFiList/WiFiList" class="weui-grid" hover-class="weui-grid_active">
+                <image class="weui-grid__icon" src="/common/images/wifi.png" />
+                <view class="weui-grid__label">WiFi</view>
+            </navigator>
+            <navigator url="/pages/otherList/otherList" class="weui-grid" hover-class="weui-grid_active">
+                <image class="weui-grid__icon" src="/common/images/other.png" />
+                <view class="weui-grid__label">Other</view>
+            </navigator>
+            <navigator url="/pages/checkList/checkList" class="weui-grid" hover-class="weui-grid_active">
+                <image class="weui-grid__icon" src="/common/images/check.png" />
+                <view class="weui-grid__label">租户查询</view>
+            </navigator>
+            <block wx:for="{{[0, 1, 2, 3, 4, 5]}}" wx:key="*this">
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/common/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">待定</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>

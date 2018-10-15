@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/WiFiList/WiFiList",
+    "pages/otherList/otherList",
+    "pages/checkList/checkList"
+  ],
+
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "长乐街16号",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8"
+  }
+  
+}

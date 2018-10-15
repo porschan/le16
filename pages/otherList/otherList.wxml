@@ -1,0 +1,25 @@
+<!--pages/otherList/otherList.wxml-->
+<!--pages/WiFiList/WiFiList.wxml-->
+<view class="page">
+    <view style="padding:40px;">
+        <view style="text-align:left;font-size:20px;font-weight:400;">其他</view>
+        <view style="margin-top:5px;color:#888888;text-align:left;font-size:14px;">这里有您需要的其它 账号密码，请勿透露他人！</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-panel">
+            <view class="weui-panel__hd">other</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">全局模式</view>
+                    <view class="weui-media-box__desc">端口：12982，密码：0014</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">hk07,jp07,us07</view>
+                        <view class="weui-media-box__info__meta">.xyz</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">过期：10月21日</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+</view>
