@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/login/login.js
 Page({
 
   /**
@@ -62,35 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  toOtherListPage(){
-    wx.navigateTo({
-      url: '/pages/otherList/otherList',
-    })
-  },
-
-  toWiFiListPage(){
-    wx.navigateTo({
-      url: '/pages/WiFiList/WiFiList',
-    })
-  },
-  
-  toMessagePage(){
-    wx.navigateTo({
-      url: '/pages/message/message',
-    })
-  },
-
-  toRentPage(){
-    wx.navigateTo({
-      url: '/pages/rent/rent',
-    })
-  },
-
-  toLogin(){
-    wx.navigateTo({
-      url: '/pages/login/login',
-    })
   }
 })

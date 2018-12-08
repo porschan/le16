@@ -7,7 +7,21 @@
     </view>
     <view class="page__bd">
         <view class="weui-panel">
-            <view class="weui-panel__hd">other</view>
+          <view class="weui-panel__hd">最新</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">全局模式</view>
+                    <view class="weui-media-box__desc">端口：53528，密码：1122</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">hk10,jp10,us10</view>
+                        <view class="weui-media-box__info__meta">.xyz</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">过期：1月21日</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel">
+            <view class="weui-panel__hd">已过期</view>
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_text">
                     <view class="weui-media-box__title weui-media-box__title_in-text">全局模式</view>
@@ -20,6 +34,5 @@
                 </view>
             </view>
         </view>
-
     </view>
 </view>
